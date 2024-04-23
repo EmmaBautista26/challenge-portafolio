@@ -8,6 +8,8 @@
 
 @import url(styles/skills.css);
 
+@import url(styles/hobbies.css);
+
 
 
 body {
@@ -23,6 +25,16 @@ main{
     flex-direction: column;
     align-items: center;
 
+}
+
+body::-webkit-scrollbar{
+    width: 7px;
+    height: 20px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: cadetblue;
+    border-radius: 5px;
 }
 
 

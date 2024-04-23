@@ -1,4 +1,4 @@
-.skills{
+.hobbies{
     display: flex;
     flex-direction: column;
     padding: 20px 20px;
@@ -6,13 +6,13 @@
     align-items: center;
 }
 
-.skills__title{
+.hobbies__title{
     font-size: 1.4em;
     font-weight: bold;
     padding: 10px 20px;
 }
 
-.skills__line{
+.hobbies__line{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -21,7 +21,7 @@
     
 }
 
-.skills__box{
+.hobbies__box{
     height: 60px;
     width: 100px;
     display: flex;
@@ -32,66 +32,65 @@
     box-shadow: 2px 2px 3px rgb(155, 176, 218);
 }
 
-.skills__img{
+.hobbies__img{
     display: flex;
     justify-content: center;
 }
 
-.skills__name{
+.hobbies__name{
     color: #656565;
     display: flex;
     justify-content: center;
     padding: 5px 5px;
 }
 
+
 @media screen and (min-width:1025px){
-    
-    .skills__title{
+    .hobbies__title{
         font-size: 2em;
     }
     
-    .skills__line{
+    .hobbies__line{
         gap: 15px;
         
     }
     
-    .skills__box{
+    .hobbies__box{
         height: 80px;
         width: 150px;
     }
     
-    .skills__img{
+    .hobbies__img{
         height: 35px;
 
     }
     
-    .skills__name{
+    .hobbies__name{
         padding: 5px 0px 7px 0px;
         font-size: 20px;
     }
 
-
 }
 
 @media screen and (min-width:768px){
-    .skills__title{
+    .hobbies__title{
         font-size: 1.8em;
     }
     
-    .skills__line{
+    .hobbies__line{
         gap: 15px;
     }
     
-    .skills__box{
+    .hobbies__box{
         height: 70px;
         width: 130px;
     }
     
-    .skills__img{
+    .hobbies__img{
         height: 30px;
     }
     
-    .skills__name{
+    .hobbies__name{
         padding: 5px 0px 6px 0px;
         font-size: 17px;
     }
