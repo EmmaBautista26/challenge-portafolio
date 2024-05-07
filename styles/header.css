@@ -3,7 +3,7 @@
 header{
     height: 60px;
     display: flex;
-    background-color: whitesmoke;
+    background: linear-gradient(rgb(211, 211, 211), )rgb(230, 230, 230);
     padding: 0px 20px;
     align-items: center;
     justify-content: space-between;
@@ -16,14 +16,15 @@ header{
 }
 
 .logo-img{
-    height: 15px;
+    height: 25px;
 }
 
 .menu__title{
     font-size: 16px;
     font-weight:bolder;
-    color: #464646;
+    color: rgb(0, 13, 199);
 }
+
 
 .menu__list{
     display: none;
@@ -32,7 +33,7 @@ header{
 .menu__list__item__contato{
     list-style: none;
     font-size: 12px;
-    color: #464646;
+    color: rgb(127, 141, 0);
 }
 
 @media screen and (min-width:1025px){
@@ -46,7 +47,7 @@ header{
         flex-direction: row;
         font-size: 18px;
         gap: 18px;
-        color: #464646;
+        color: rgb(127, 141, 0);
     }
 
     .menu__list :nth-child(6n){

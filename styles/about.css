@@ -1,6 +1,8 @@
 .about{
     display: flex;
     padding: 10px 20px;
+    background-color: rgb(127, 141, 0);
+    color: white;
 }
 
 .about__title{
@@ -11,6 +13,7 @@
 .about__container{
     display: flex;
     padding-top: 1em;
+    padding-bottom: 1em;
     flex-direction: column;
     gap: 15px;
     text-align: center;
@@ -19,14 +22,9 @@
 
 }
 
-.img_firma{
-    display: flex;
-    justify-content: center;
-}
-
-.firma__about{
-    height: 40px;
-    width: 50px;
+.heart{
+    height: 15px;
+    padding-right: 2px;
 }
 
 @media screen and (min-width:1025px){
@@ -45,8 +43,8 @@
         line-height: 25px;
     }
 
-    .firma__about{
-        height: 70px;
-        width: 100px;
+    .heart{
+        height: 20px;
+        padding-right: 2px;
     }
 }

@@ -19,8 +19,7 @@
 
 
 body {
-    background-color: whitesmoke;
-    color: black;
+    background-color: rgb(230, 230, 230);
     font-family: 'Raleway';
     line-height: 1;
     overflow-x: hidden;
@@ -39,7 +38,7 @@ body::-webkit-scrollbar{
 }
 
 body::-webkit-scrollbar-thumb{
-    background-color: cadetblue;
+    background-color: rgba(173, 0, 0, 0.767);
     border-radius: 5px;
 }
 
