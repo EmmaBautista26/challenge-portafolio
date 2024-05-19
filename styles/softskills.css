@@ -1,0 +1,103 @@
+.soft{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.soft__title{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: rgb(141, 0, 0);
+}
+
+.soft__line{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.soft__box{
+    height: 120px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(211, 211, 211);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 13, 199);
+}
+
+.soft__img{
+    display: flex;
+    justify-content: center;
+    width: 80px;
+}
+
+.soft__name{
+    color: rgb(0, 13, 199);
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+@media screen and (min-width:1025px){
+    
+    .soft__title{
+        font-size: 2em;
+    }
+    
+    .soft__line{
+        gap: 15px;
+        
+    }
+    
+    .soft__box{
+        height: 80px;
+        width: 150px;
+    }
+    
+    .soft__img{
+        height: 35px;
+
+    }
+    
+    .soft__name{
+        padding: 5px 0px 7px 0px;
+        font-size: 20px;
+    }
+
+
+}
+
+@media screen and (min-width:768px){
+    .soft__title{
+        font-size: 1.8em;
+    }
+    
+    .soft__line{
+        gap: 15px;
+    }
+    
+    .soft__box{
+        height: 70px;
+        width: 130px;
+    }
+    
+    .soft__img{
+        height: 30px;
+    }
+    
+    .soft__name{
+        padding: 5px 0px 6px 0px;
+        font-size: 17px;
+    }
+
+}
