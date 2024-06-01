@@ -18,6 +18,8 @@
 
 @import url(styles/contacto.css);
 
+@import url(styles/footer.css);
+
 
 
 body {
@@ -42,61 +44,4 @@ body::-webkit-scrollbar{
 body::-webkit-scrollbar-thumb{
     background-color: rgba(173, 0, 0, 0.767);
     border-radius: 5px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Vamos a desafiarnos trabajando con responsividad?
-Utiliza las referencias de los breakpoints @media abajo */
-
-/*Tablet*/
-@media (min-width: 768px) {
-
-    /* Menú */
-    
-    /*title*/
-    
-    /*Skills*/
-    
-    /*Hobbies*/
-    
-    /*Formación Académica*/
-    
-    /*Experiencia Profesional*/
-    
-    }
-    
-/*Mobile*/
-@media (min-width: 425px) {
-    
-    /*Menu*/
-    
-    /*Titulo*/
-    
-    /*Sección sobre mi*/
-    
-    /*Skills*/
-    
-    /*Hobbies*/
-     
-    /*Formación Académica*/
-    
-    /*Experiencia Profesional*/
-    
-     /*Contacto*/
-    
-    /*Footer*/
-    
 }
